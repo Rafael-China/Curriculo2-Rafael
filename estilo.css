@@ -585,12 +585,12 @@ nav .ativo {
     background-size: 280px;
     outline: none;
     animation-name: pj4;
-    animation: slide4 50s infinite;
+    animation: slide12 50s infinite;
     animation-direction: alternate;
 
 }
 
-@keyframes slide4 {
+@keyframes slide12 {
 
     0%,
     25% {
@@ -628,12 +628,12 @@ nav .ativo {
     background-size: 280px;
     outline: none;
     animation-name: pj3;
-    animation: slide3 50s infinite;
+    animation: slide13 50s infinite;
     animation-direction: alternate;
 
 }
 
-@keyframes slide3 {
+@keyframes slide13 {
 
     0%,
     25% {
