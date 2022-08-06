@@ -18,7 +18,7 @@ body {
 
 nav {
 
-    border-left: 1000px;
+    border-left: 100%;
     height: 100px;
     border: 1px solid #000;
     margin: 0 auto;
@@ -80,7 +80,18 @@ nav .ativo {
 
 /*-------------------------------------------------------------------------*/
 
-#article1 {
+.mainindex {
+
+    float: left;
+    width: 1440px;
+    height: 800px;
+    border: 1px solid none;
+    margin-left: 110px;
+    margin-top: 20px;
+
+}
+
+.article1 {
 
     background-color: #8f4801;
     border: 1px solid #fff;
@@ -91,15 +102,15 @@ nav .ativo {
 
 }
 
-#sectionsobremim{
+.sectionsobremim {
 
-    float: right;
+    float: none;
     margin-top: 10px;
-    width: 650px;
+    width: 100%;
     height: 10px;
     border: 1px solid none;
-    margin-right: 10px;
-    text-align: justify;
+    margin-right: 100px;
+    text-align: center;
     color: #FFF;
     font-weight: bolder;
     font-family: Arial, Helvetica, sans-serif;
@@ -111,38 +122,37 @@ nav .ativo {
 
 }
 
-#section1 {
+.section1 {
 
     float: left;
-    margin-top: 10px;
+    margin-top: 0px;
     width: 276px;
-    height: 276px;
+    height: 270px;
     border: 1px solid #fff;
     margin-left: 10px;
     border-radius: 5px;
     align-items: center;
     background-image: url(img/Foto.jfif);
-    background-size: 280px;
+    background-size: 290px;
     outline: none;
 
 }
 
-#section2 {
+.section2 {
 
     background-color: #552c03;
     float: right;
-    margin-top: 10px;
-    width: 870px;
-    height: 256px;
+    width: 1087px;
+    height: 230px;
     border: 1px solid #fff;
-    margin-right: 10px;
-    text-align: justify;
+    margin: 0 10px 10px 10px;
+    text-align: center;
     color: #FFF;
     font-weight: bolder;
     font-family: Arial, Helvetica, sans-serif;
     line-height: 30px;
     border-radius: 5px;
-    padding: 10px;
+    padding: 20px;
 
 }
 
@@ -759,10 +769,9 @@ nav .ativo {
     height: 100px;
     position: unset;
     background-color: rgb(58, 35, 21)
-
 }
 
-#footer1 {
+.footer1 {
 
     position: absolute;
     bottom: 0;
@@ -783,7 +792,7 @@ nav .ativo {
 }
 
 .col-2 {
-    width: 16.66%;
+    width: 20.66%;
 }
 
 .col-3 {
@@ -826,10 +835,197 @@ nav .ativo {
     width: 99.5%;
 }
 
-@media only screen and (max-width: 768px) {
+/*-------------------------------------------------------------------------*/
 
-    /* For mobile phones: */
-    [class*="col-"] {
+
+@media screen and (max-width: 768px) {
+
+    nav {
+
         width: 100%;
+        height: 100px;
+        float: none;
+        margin: 0 10px 10px 0;
+
     }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    .mainindex {
+
+        width: 100%;
+        height: 100%;
+        margin: 10px 0 10px 0;
+
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    .article1 {
+
+        width: 94%;
+        height: 100%;
+        float: none;
+        margin: 10px 10px 10px 10px;
+        padding: 10px;
+
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    .sectionsobremim {
+
+        float: none;
+        margin-top: 10px;
+        width: 100px;
+        height: 50px;
+        border: 1px solid none;
+        margin-left: 300px;
+        text-align: center;
+        color: #FFF;
+        font-weight: bolder;
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 20px;
+        border-radius: 5px;
+        padding: 10px;
+        font-size: 20pt;
+        margin-bottom: 10px;
+
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    .section1 {
+
+        float: none;
+        margin-top: 0px;
+        width: 276px;
+        height: 276px;
+        border: 1px solid #fff;
+        margin-left: 220px;
+        margin-bottom: 20px;
+        border-radius: 5px;
+        align-items: center;
+        background-image: url(img/Foto.jfif);
+        background-size: 290px;
+        outline: none;
+
+    }
+
+}
+
+/*-------------------------------------------------------------------------*/
+
+@media screen and (max-width: 600px) {
+
+    nav {
+
+        width: 100%;
+        height: 100px;
+        float: none;
+        margin: 0 10px 10px 0;
+        text-align: center;
+
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+
+    .mainindex {
+
+        width: 100%;
+        height: 100%;
+        margin: 10px 0 10px 0;
+
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+
+    .article1 {
+
+        width: 100%;
+        height: 100%;
+        float: none;
+        margin: 10px 0px 10px 0px;
+        padding: 0px;
+
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+
+    .sectionsobremim {
+
+        float: none;
+        margin-top: 10px;
+        width: 100px;
+        height: 50px;
+        border: 1px solid none;
+        margin-left: 255px;
+        text-align: center;
+        color: #FFF;
+        font-weight: bolder;
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 20px;
+        border-radius: 5px;
+        padding: 10px;
+        font-size: 20pt;
+        margin-bottom: 10px;
+
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+
+    .section1 {
+
+        float: none;
+        margin-top: 0px;
+        width: 276px;
+        height: 276px;
+        border: 1px solid #fff;
+        margin-left: 175px;
+        margin-bottom: 20px;
+        border-radius: 5px;
+        background-image: url(img/Foto.jfif);
+        background-size: 290px;
+        outline: none;
+
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+
+    .section2 {
+
+        background-color: #552c03;
+        float: right;
+        width: 96.5%;
+        height: 230px;
+        border: 1px solid #fff;
+        margin: 10px 0px 10px 0px;
+        text-align: justify;
+        color: #FFF;
+        font-weight: bolder;
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 20px;
+        border-radius: 5px;
+        padding: 10px;
+
+    }
+
 }
