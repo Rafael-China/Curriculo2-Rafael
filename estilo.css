@@ -946,6 +946,8 @@ nav .ativo {
     }
 }
 
+/*-------------------------------------------------------------------------*/
+
 @media screen and (max-width: 768px) {
 
     .mainindex {
@@ -1808,6 +1810,42 @@ nav .ativo {
         animation-name: pj3;
         animation: slide13 50s infinite;
         animation-direction: alternate;
+
+    }
+
+}
+
+/*-------------------------------------------------------------------------*/
+
+.a1{
+    float: right;
+    margin-top: 0px;
+    margin-right: 45%;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    font-size: 22px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    background-color:#552c03;
+    border: 1px solid #000;
+    border-left: 10px solid #000;
+    transition: all 0.25s ease-in-out;
+}
+
+a:hover{
+    background-color: white;
+    color: #000;
+}
+
+/*-------------------------------------------------------------------------*/
+
+@media screen and (max-width: 768px) {
+
+    .a1{
+
+        margin-top: 10px;
+        margin-right: 40%;
 
     }
 
